@@ -1,0 +1,25 @@
+<keymap version="1" name="ReSharper copy 1" parent="ReSharper">
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt 1" />
+    <keyboard-shortcut first-keystroke="alt 7" />
+  </action>
+  <action id="DumpLookupElementWeights" />
+  <action id="MoveTabDown">
+    <keyboard-shortcut first-keystroke="shift ctrl alt s" />
+  </action>
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="shift ctrl alt e" />
+  </action>
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="shift ctrl alt page_down" />
+  </action>
+  <action id="PrevSplitter">
+    <keyboard-shortcut first-keystroke="shift ctrl alt page_up" />
+  </action>
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="shift alt quote" />
+  </action>
+  <action id="Unsplit">
+    <keyboard-shortcut first-keystroke="shift ctrl alt d" />
+  </action>
+</keymap>
