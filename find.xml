@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="customScope" value="File 'C:\Users\jwootonn\Git\Beacon\src\IDxBeacon.WebApp\ClientApp\src\components\core\button.tsx'" />
+    <option name="defaultScopeName" value="File 'C:\Users\jwootonn\Git\Beacon\src\IDxBeacon.WebApp\ClientApp\src\components\core\button.tsx'" />
+    <option name="SEARCH_SCOPE" value="File 'C:\Users\jwootonn\Git\Beacon\src\IDxBeacon.WebApp\ClientApp\src\components\core\button.tsx'" />
   </component>
 </application>
