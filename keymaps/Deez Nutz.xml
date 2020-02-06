@@ -1,0 +1,29 @@
+<keymap version="1" name="Deez Nutz" parent="ReSharper">
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt 7" />
+    <keyboard-shortcut first-keystroke="ctrl back_quote" />
+  </action>
+  <action id="DumpLookupElementWeights" />
+  <action id="Javascript.Linters.EsLint.Fix">
+    <keyboard-shortcut first-keystroke="shift alt e" />
+  </action>
+  <action id="MoveTabDown">
+    <keyboard-shortcut first-keystroke="shift ctrl alt s" />
+  </action>
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="shift ctrl alt e" />
+  </action>
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="shift ctrl alt page_down" />
+  </action>
+  <action id="PrevSplitter">
+    <keyboard-shortcut first-keystroke="shift ctrl alt page_up" />
+  </action>
+  <action id="ShowBookmarks" />
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="shift alt quote" />
+  </action>
+  <action id="Unsplit">
+    <keyboard-shortcut first-keystroke="shift ctrl alt d" />
+  </action>
+</keymap>
