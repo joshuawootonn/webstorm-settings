@@ -4,9 +4,9 @@
   </component>
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="12" />
-    <option name="FONT_FAMILY" value="Fira Code Retina" />
+    <option name="FONT_FAMILY" value="Cascadia Code PL" />
     <option name="USE_LIGATURES" value="true" />
-    <option name="SECONDARY_FONT_FAMILY" value="Fira Code" />
+    <option name="SECONDARY_FONT_FAMILY" value="Fira Code Retina" />
   </component>
   <component name="EditorSettings">
     <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
