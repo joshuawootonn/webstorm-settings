@@ -19,15 +19,30 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="styledDecorator" value="decorators: [fn =&gt; &lt;Wrapper&gt;{fn()}&lt;/Wrapper&gt;]," toReformat="false" toShortenFQNames="true">
+  <template name="styledDecorator" value="decorators: [fn =&gt; &lt;Wrapper&gt;{fn()}&lt;/Wrapper&gt;]," description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="story" value="import React from 'react';&#10;import $COMPONENT$ from '../$IMPORT$';&#10;&#10;export default {&#10;    title: '$DIRECTORY$.$COMPONENT$',&#10;};&#10;&#10;export const Default = () =&gt; &lt;$COMPONENT$&gt;&lt;/$COMPONENT$&gt;;&#10;" toReformat="false" toShortenFQNames="true">
+  <template name="story" value="import React from 'react';&#10;import $COMPONENT$ from '../$IMPORT$';&#10;&#10;export default {&#10;    title: '$DIRECTORY$.$COMPONENT$',&#10;};&#10;&#10;export const Default = () =&gt; &lt;$COMPONENT$&gt;&lt;/$COMPONENT$&gt;;&#10;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="COMPONENT" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="IMPORT" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="DIRECTORY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="div" value="const $NAME$ = styled.div`&#10;    $NEXT1$&#10;`;" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NEXT1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="compose" value="const $NAME$ = styled($NEXT0$)`&#10;    $NEXT1$&#10;`;" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NEXT0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NEXT1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
