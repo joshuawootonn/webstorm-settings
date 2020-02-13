@@ -8,6 +8,7 @@
       <mapping pattern="Boolean" type="TypeScript JSX" />
       <mapping pattern="imageNotification" type="TypeScript JSX" />
       <mapping pattern="oneEye" type="TypeScript JSX" />
+      <mapping pattern="setupCameraInstruction" type="TypeScript JSX" />
       <mapping pattern="tableFilters" type="TypeScript JSX" />
       <mapping pattern="header" type="TypeScript JSX" />
     </extensionMap>
