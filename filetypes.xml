@@ -2,7 +2,10 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="useInterval" type="C#" />
+      <removed_mapping ext="md" type="Markdown" />
       <mapping pattern="Router" type="PLAIN_TEXT" />
+      <mapping ext="md" type="PLAIN_TEXT" />
+      <mapping ext="md " type="PLAIN_TEXT" />
       <mapping pattern="appState" type="TypeScript" />
       <mapping pattern="defaultValues" type="TypeScript" />
       <mapping pattern="Boolean" type="TypeScript JSX" />
