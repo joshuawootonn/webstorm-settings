@@ -65,4 +65,15 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="spec" value="describe('$NAME$', () =&gt; {&#10;    before(function() {&#10;        cy.visit('/');&#10;        $1$&#10;    });&#10;&#10;    beforeEach(() =&gt; {&#10;       $2$&#10;    });&#10;&#10;    it('WHEN $3$ THEN $4$', () =&gt; {&#10;        $5$&#10;    });&#10;});&#10;" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="5" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
