@@ -1,0 +1,12 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="JavaScript">
+        <added pattern="func(value)" />
+      </blacklist>
+    </blacklists>
+    <disabledLanguages>
+      <language id="TypeScript" />
+    </disabledLanguages>
+  </component>
+</application>
