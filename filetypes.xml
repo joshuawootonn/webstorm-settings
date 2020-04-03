@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="useInterval" type="C#" />
+      <mapping pattern="overlay" type="PLAIN_TEXT" />
       <mapping pattern="Router" type="PLAIN_TEXT" />
       <mapping ext="md " type="PLAIN_TEXT" />
       <mapping pattern="windowRequireMock" type="TypeScript" />
