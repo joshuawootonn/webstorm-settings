@@ -3,6 +3,9 @@
     <blacklists>
       <blacklist language="JavaScript">
         <added pattern="func(value)" />
+        <added pattern="React.useState(initialState)" />
+        <added pattern="React.createContext(defaultValue,calculateChangedBits)" />
+        <added pattern="useToggle(initialValue)" />
       </blacklist>
     </blacklists>
     <disabledLanguages>
