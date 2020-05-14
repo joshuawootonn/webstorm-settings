@@ -6,31 +6,31 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="wrapper" value="import styled from 'context/styled.context';&#10;&#10;const $NAME$ = styled.div`&#10;    $NEXT1$&#10;`;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="wrapper" value="import styled from 'context/styled.context';&#10;&#10;const $NAME$ = styled.div`&#10;    $NEXT1$&#10;`;" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="NEXT1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="styled" value="import styled, { css } from 'styled-components/macro';" description="" toReformat="false" toShortenFQNames="true">
+  <template name="styled" value="import styled, { css } from 'styled-components/macro';" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="styledDecorator" value="decorators: [fn =&gt; &lt;Wrapper&gt;{fn()}&lt;/Wrapper&gt;]," description="" toReformat="false" toShortenFQNames="true">
+  <template name="styledDecorator" value="decorators: [fn =&gt; &lt;Wrapper&gt;{fn()}&lt;/Wrapper&gt;]," description="" toReformat="false" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="div" value="const $NAME$ = styled.div`&#10;    $NEXT1$&#10;`;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="div" value="const $NAME$ = styled.div`&#10;    $NEXT1$&#10;`;" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="NEXT1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="compose" value="const $NAME$ = styled($NEXT0$)`&#10;    $NEXT1$&#10;`;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="compose" value="const $NAME$ = styled($NEXT0$)`&#10;    $NEXT1$&#10;`;" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="NEXT0" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="NEXT1" expression="" defaultValue="" alwaysStopAt="true" />
@@ -38,12 +38,12 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="react" value="import React, { FC } from &quot;react&quot;;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="react" value="import React, { FC } from &quot;react&quot;;" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="subFunctional" value="interface $COMPONENT$Props {&#10;    $START$&#10;}&#10;&#10;const $COMPONENT$: FC&lt;$COMPONENT$Props&gt; = props =&gt; {&#10;    $NEXT$&#10;    return &lt;div&gt;$END$&lt;/div&gt;;&#10;};" description="" toReformat="false" toShortenFQNames="true">
+  <template name="subFunctional" value="interface $COMPONENT$Props {&#10;    $START$&#10;}&#10;&#10;const $COMPONENT$: FC&lt;$COMPONENT$Props&gt; = props =&gt; {&#10;    $NEXT$&#10;    return &lt;div&gt;$END$&lt;/div&gt;;&#10;};" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="COMPONENT" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
@@ -56,7 +56,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="spec" value="describe('$NAME$', () =&gt; {&#10;    before(function() {&#10;        cy.visit('/');&#10;        $1$&#10;    });&#10;&#10;    beforeEach(() =&gt; {&#10;       $2$&#10;    });&#10;&#10;    it('WHEN $3$ THEN $4$', () =&gt; {&#10;        $5$&#10;    });&#10;});&#10;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="spec" value="describe('$NAME$', () =&gt; {&#10;    before(function() {&#10;        cy.visit('/');&#10;        $1$&#10;    });&#10;&#10;    beforeEach(() =&gt; {&#10;       $2$&#10;    });&#10;&#10;    it('WHEN $3$ THEN $4$', () =&gt; {&#10;        $5$&#10;    });&#10;});&#10;" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
