@@ -67,7 +67,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="dumbComponent" value="const $COMPONENT$ = ({$NICE$}) =&gt; ($VALUE$);" toReformat="false" toShortenFQNames="true">
+  <template name="dumbComponent" value="const $COMPONENT$ = ({$NICE$}) =&gt; ($VALUE$);" description="" toReformat="false" toShortenFQNames="true">
     <variable name="COMPONENT" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="NICE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
