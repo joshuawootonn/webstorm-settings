@@ -1,8 +1,9 @@
 <application>
   <component name="SonarLintGlobalSettings">
     <rules>
-      <Rule active="false" key="typescript:S3317" />
       <Rule active="false" key="typescript:S1854" />
+      <Rule active="false" key="typescript:S3317" />
+      <Rule active="false" key="javascript:S3317" />
     </rules>
   </component>
 </application>
