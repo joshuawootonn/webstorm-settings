@@ -6,6 +6,9 @@
         <added pattern="React.useState(initialState)" />
         <added pattern="React.createContext(defaultValue,calculateChangedBits)" />
         <added pattern="useToggle(initialValue)" />
+        <added pattern="React.useRef(initialValue)" />
+        <added pattern="func(selection)" />
+        <added pattern="func(condition,timeout,timeoutMsg,interval)" />
       </blacklist>
     </blacklists>
     <disabledLanguages>
