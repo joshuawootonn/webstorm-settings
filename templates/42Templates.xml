@@ -104,7 +104,7 @@
       <option name="ECMAScript6" value="true" />
     </context>
   </template>
-  <template name="themeWithColor" value="${({ theme, color }) =&gt; (color ? theme.color[color] : theme.color.$asdf$)};" toReformat="false" toShortenFQNames="true">
+  <template name="themeWithColor" value="${({ theme, color }) =&gt; (color ? theme.color[color] : theme.color.$asdf$)};" description="" toReformat="false" toShortenFQNames="true">
     <variable name="asdf" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="CSS" value="true" />
