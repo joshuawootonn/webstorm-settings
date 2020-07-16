@@ -110,4 +110,11 @@
       <option name="CSS" value="true" />
     </context>
   </template>
+  <template name="themeWithDark" value="${({ theme }) =&gt; theme.isDark ? theme.color.$aaa$ : theme.color.$bbb$};" toReformat="false" toShortenFQNames="true">
+    <variable name="aaa" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="bbb" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
 </templateSet>
