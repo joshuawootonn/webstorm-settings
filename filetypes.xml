@@ -6,17 +6,17 @@
       <mapping pattern="overlay" type="PLAIN_TEXT" />
       <mapping pattern="Router" type="PLAIN_TEXT" />
       <mapping ext="md " type="PLAIN_TEXT" />
+      <mapping pattern="appState" type="TypeScript" />
       <mapping pattern="windowRequireMock" type="TypeScript" />
       <mapping pattern="defaultImages" type="TypeScript" />
-      <mapping pattern="appState" type="TypeScript" />
       <mapping pattern="defaultValues" type="TypeScript" />
+      <mapping pattern="header" type="TypeScript JSX" />
+      <mapping pattern="setupCameraInstruction" type="TypeScript JSX" />
+      <mapping pattern="tableFilters" type="TypeScript JSX" />
       <mapping pattern="Boolean" type="TypeScript JSX" />
       <mapping pattern="imageNotification" type="TypeScript JSX" />
       <mapping pattern="oneEye" type="TypeScript JSX" />
-      <mapping pattern="setupCameraInstruction" type="TypeScript JSX" />
       <mapping pattern="animatedLogo" type="TypeScript JSX" />
-      <mapping pattern="tableFilters" type="TypeScript JSX" />
-      <mapping pattern="header" type="TypeScript JSX" />
     </extensionMap>
   </component>
 </application>
